@@ -9,8 +9,7 @@ console.log(`=== FICHA DO ITEM ===
 Nome: ${nomeItem}
 Preço: R$ ${precoItem}
 Raridade: ${raridadeItem}
-Estoque: ${quantidadeEstoque} unidades
-`);
+Estoque: ${quantidadeEstoque} unidades`);
 
 // ETAPA 2 — Regras de Negócio (operadores e condicionais)
 
@@ -27,7 +26,7 @@ if (precoItem < 100) {
 } else {
   raridadeItem = "Lendário";
 }
-console.log(`Classificação automática pelo preço: ${raridadeItem}`);
+console.log(`Classificação pelo preço: ${raridadeItem}`);
 
 const emDestaque = precoItem > 500 ? true : false;
 console.log(`Item em destaque? ${emDestaque}`);
@@ -70,15 +69,9 @@ console.log("");
 // ETAPA 5 — Catálogo de Itens (laço for...of)
 
 console.log("=== CATÁLOGO DE ITENS (VITRINE DA LOJA) ===");
-const catalogo = [
-  "Espada das Sombras",
-  "Asas Douradas",
-  "Capacete Neon",
-  "Pet Dragão",
-  "Skin Cyberpunk",
-];
+const catalogo = ["Espada das Sombras", "Asas Douradas", "Capacete Neon", "Pet Dragão", "Skin Cyberpunk", ];
 
 for (const item of catalogo) {
-  console.log(`🛒 ${item}`);
+  console.log(`${item}`);
 }
 
