@@ -1,6 +1,5 @@
 function soma(preco1, preco2) {
-    resultado = preco1 + preco2;
-    return (resultado);
+    return preco1+preco2;
 };
 
-soma(10, 20);
+console.log(`Resultado:`, soma(10, 20));
