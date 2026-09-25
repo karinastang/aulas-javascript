@@ -1,7 +1,5 @@
 const multiplicacao=(a, b) => {
-    resultado = a*b
-    return (resultado);
-
+    return a*b
 };
 
-multiplicacao(22, 33); 
+console.log(`Resultado:`, multiplicacao(50, 2));
