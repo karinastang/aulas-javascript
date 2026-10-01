@@ -1,0 +1,1 @@
+const lista1 = [1, 2];
