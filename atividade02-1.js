@@ -1,3 +1,0 @@
-function IsAdulto(idade) {
-    idade = 
-}

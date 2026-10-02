@@ -1,4 +1,4 @@
-const valores = [1, 2, 3, 4, 5, 6];
-const pares = valores.filter(n % 2 === 6);
+const precos = [5.00, 12.50, 2.50];
+const total = precos.reduce((acc, valor) => acc + valor, 0);
 
-console.log(pares); // [2, 4, 6]
+console.log(total); // 20
