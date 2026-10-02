@@ -10,3 +10,11 @@ const elementosFake = [
   { id: 9, tagName: 'LI', style: { color: 'black', display: 'list-item' }, classList: ['item-lista', 'pending'] },
   { id: 10, tagName: 'FOOTER', style: { color: 'white', display: 'flex' }, classList: ['footer-area'] }
 ];
+
+
+for (let elemento of elementosFake) {
+    const style = elemento;
+    elemento.push(backgroundColor ="#FFFFFF");
+}
+
+console.log(elementosFake);
