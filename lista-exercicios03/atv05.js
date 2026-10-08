@@ -11,8 +11,14 @@ const elementosFake = [
   { id: 10, tagName: 'FOOTER', style: { color: 'white', display: 'flex' }, classList: ['footer-area'] }
 ];
 
- for (const elemento of elementosFake) {
-    elemento.style.backgroundColor = '#FFFFFF'
 
-    console.log (elementosFake)
-  }
+const relatorioDeEstilos = []
+
+elementosFake.forEach(tag => {
+
+relatorioDeEstilos.push(tag.tagName)
+relatorioDeEstilos.push(tag.id)
+relatorioDeEstilos.push(tag.style)
+
+})
+console.log (relatorioDeEstilos)

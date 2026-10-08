@@ -11,8 +11,12 @@ const elementosFake = [
   { id: 10, tagName: 'FOOTER', style: { color: 'white', display: 'flex' }, classList: ['footer-area'] }
 ];
 
- for (const elemento of elementosFake) {
-    elemento.style.backgroundColor = '#FFFFFF'
 
-    console.log (elementosFake)
-  }
+for (const alterar of elementosFake){
+    if(alterar.tagName === 'DIV'){
+        alterar.tagName = 'SECTION'
+        alterar.classList = ['container','active','converted']
+    }
+}
+
+console.log(elementosFake)
